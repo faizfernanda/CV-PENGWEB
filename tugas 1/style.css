@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Set a default font for the entire page */
+    background-color: #f6f6f6; /* Add a light background color */
+}
+
+article {
+    padding: 0 1em;
+}
+p{
+    color:#000000
+}
+h1{
+    color :#000000
+}
+section {
+    margin: 1em auto; /* Center sections */
+    padding: 1em;
+    background-color: rgb(190, 223, 204); /* Add a white background to sections */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+header {
+    padding: 2em;
+    text-align: center;
+    background-image: url('sciezka'); /* Uncomment this line and replace 'sciezka' with your image path */
+    background-size: cover; /* Adjust the background size */
+    color: white;
+}
+
+header h1 {
+    margin: 1em 0;
+    font-size: 2em; /* Increase font size */
+}
+
+.main-content {
+    max-width: 800px; /* Set a maximum width for the main content */
+    margin: 0 auto; /* Center the main content */
+}
+
+.sub {
+    font-size: 16px;
+    color: #333; /* Darken the text color */
+    letter-spacing: 2px;
+    margin-bottom: 8px; /* Reduce the margin */
+}
+
+.description {
+    font-size: 18px; /* Slightly larger font size */
+    color: #555; /* Slightly darker text color */
+    margin-bottom: 20px;
+    line-height: 1.6; /* Increase line height for better readability */
+}
+
+.sosmed {
+    color: #3498db; /* Use a blue color for social media links */
+    font-weight: bold; /* Make the text bold */
+}
+
+.sosmed2 {
+    color: #555; /* Darken the text color */
+}
+
+footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* Light text color */
+    text-align: center;
+    padding: 1em;
+    position: fixed; /* Fix the footer to the bottom of the page */
+    width: 100%;
+    bottom: 0;
+}
